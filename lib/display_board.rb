@@ -4,9 +4,9 @@
 def display_board(board)
   fila = [" #{board[0]} | #{board[1]} | #{board[2]} ", " #{board[3]} | #{board[4]} | #{board[5]} ", " #{board[6]} | #{board[7]} | #{board[8]} "]
   espacio = "-----------"
-puts fila
-puts espacio
-puts fila
-puts espacio
-puts fila
+  puts fila[0]
+  puts espacio
+  puts fila[1]
+  puts espacio
+  puts fila[2]
 end
