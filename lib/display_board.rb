@@ -10,3 +10,7 @@ def display_board(board)
   puts espacio
   puts fila[2]
 end
+
+board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+
+display_board(board)
