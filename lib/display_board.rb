@@ -11,6 +11,6 @@ def display_board(board)
   puts fila[2]
 end
 
-board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+board = [" ", "O", "X", "O", "X", " ", " ", " ", " "]
 
 display_board(board)
